@@ -1,3 +1,4 @@
+#code 1
 import time
 class Human:
     def __init__(self, name, age):
