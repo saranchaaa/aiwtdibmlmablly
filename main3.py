@@ -11,6 +11,5 @@ class Parent(Grandparent):
     def a(self):
         print("AIwtdibmlmablly")
 
-
 c = Parent()
 c.a()
