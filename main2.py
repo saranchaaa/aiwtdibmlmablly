@@ -1,6 +1,7 @@
 class GreatGrandma:
     age = 90
     height = 159
+    x = 55555
 
 class Grandma(GreatGrandma):
     age = 59
@@ -12,8 +13,13 @@ class Dad(Grandma):
 
 class Child(Dad):
     age = 12
+    name = "nnn"
     height = 164
 
-c1 = Child()
-print("AGE     HEIGHT")
-print(c1.age, "  \t", c1.height)
+    def __init__(self):
+        print(self.height)
+        print(self.name)
+        print(self.x)
+
+
+c = Child()
